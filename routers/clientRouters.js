@@ -10,7 +10,7 @@ router.post("/:clientId", asyncHandler(async (req, res) => {
     
     const connection = connectToMongoDB(req.params.clientId);
       
-    res.send({clientId: req.params.clientId});
+    res.send({clientId: req.params.clientId}); 
 }));
 
 
