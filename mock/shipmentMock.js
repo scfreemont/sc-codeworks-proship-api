@@ -1,23 +1,23 @@
 const shipment = {
   shipFrom: {
     name: "Vineeth",
-    address1: "31/4E",
+    address1: "6388 FIESTA DRIVE",
     address2: "Cattamanchi",
     address3: "Cattamanchi",
-    city: "Chittoor",
-    state: "Andhra Pradesh",
-    zip: "517152",
-    country: "Australia",
+    city: "COLUMBUS",
+    state: "OH",
+    zip: "43235",
+    country: "UNITED STATES",
   },
   shipTo: {
     name: "Viswachand",
-    address1: "1-4E",
-    address2: "Kothaindlu",
-    address3: "Kothaindlu",
-    city: "Tirupathi",
-    state: "Andhra Pradesh",
-    zip: "517152",
-    country: "Africa",
+    address1: "6388 FIESTA DRIVE",
+    address2: "Cattamanchi",
+    address3: "Cattamanchi",
+    city: "COLUMBUS",
+    state: "OH",
+    zip: "43235",
+    country: "UNITED STATES",
   },
   billTo: {
     name: "Konda Babu",
@@ -30,10 +30,10 @@ const shipment = {
     country: "Canada",
   },
   shippingcharge: {
-    name: "Thirdparty"   
+    name: "PREPAID"   
   },
   carrier: {
-    name: "FEDEX",
+    name: "UPS",
   },
   packages: []
 };

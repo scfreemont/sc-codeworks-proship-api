@@ -22,6 +22,9 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.12.7",
     "nodemon": "^2.0.7",
+    "shipping-ups": "^1.0.0",
+    "ups-nodejs-sdk": "^1.0.0",
+    "usps-webtools": "^1.0.7",
     "validator": "^13.6.0"
   }
 }
