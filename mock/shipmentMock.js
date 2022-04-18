@@ -1,23 +1,35 @@
+// city: 'Dover',
+//       state_code: 'OH',
+//       postal_code: '44622',
+//       country_code: 'US'
+//     },
+//     to: {
+//       city: 'Charlotte',
+//       state_code: 'NC',
+//       postal_code: '28205',
+//       country_code: 'US'
 const shipment = {
   shipFrom: {
-    name: "Vineeth",
-    address1: "6388 FIESTA DRIVE",
+    name: "Thor",
+    address1: "26602 ALISO CREEK ROAD",
     address2: "Cattamanchi",
     address3: "Cattamanchi",
-    city: "COLUMBUS",
-    state: "OH",
-    zip: "43235",
-    country: "UNITED STATES",
+    city: "ROSWELL",
+    state: "GA",
+    zip: "30076",
+    statecode: "OH",
+    country: "US",
   },
   shipTo: {
-    name: "Viswachand",
-    address1: "6388 FIESTA DRIVE",
+    name: "Iron Man",
+    address1: "26602 ALISO CREEK ROAD",
     address2: "Cattamanchi",
     address3: "Cattamanchi",
-    city: "COLUMBUS",
-    state: "OH",
-    zip: "43235",
-    country: "UNITED STATES",
+    city: "New York",
+    state: "GA",
+    statecode: "NC",
+    zip: "30076",
+    country: "US",
   },
   billTo: {
     name: "Konda Babu",
@@ -30,12 +42,12 @@ const shipment = {
     country: "Canada",
   },
   shippingcharge: {
-    name: "PREPAID"   
+    name: "POSTPAID",
   },
   carrier: {
     name: "UPS",
   },
-  packages: []
+  packages: [],
 };
 
 export default {
